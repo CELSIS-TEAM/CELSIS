@@ -5,7 +5,7 @@
 
 ### Then conect to server using any convenient tool for it (i am using JetBrains DataGrip or Microsoft SMSS). Make sure you have checked Trust server certificate
 
-### Create new DB with name CLASIS_DB
+### Create new DB with name CELSIS_DB
 
 ### In appsettings.json (appsettings.Development.json for debug) change ConnectionStrings.DefaultConnection to 
 > "Server=localhost, 1433; Database=CELSIS_DB; Trusted_Connection=False; User Id=sa; Password=[password]; TrustServerCertificate=True"
