@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CELSIS.Api", "CELSIS.Api\CELSIS.Api.csproj", "{8FF7A1BA-60EC-43A3-AF6E-9CED7BD37798}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "celsis.web", "CELSIS.Web\celsis.web.esproj", "{9DC16E35-A517-4E9B-8519-665F85CA2EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CELSIS.Web", "CELSIS.Web\CELSIS.Web.csproj", "{DF52218C-A07E-480B-B979-FEA345CEC490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,10 @@ Global
 		{8FF7A1BA-60EC-43A3-AF6E-9CED7BD37798}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF7A1BA-60EC-43A3-AF6E-9CED7BD37798}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF7A1BA-60EC-43A3-AF6E-9CED7BD37798}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9DC16E35-A517-4E9B-8519-665F85CA2EC4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DF52218C-A07E-480B-B979-FEA345CEC490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF52218C-A07E-480B-B979-FEA345CEC490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF52218C-A07E-480B-B979-FEA345CEC490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF52218C-A07E-480B-B979-FEA345CEC490}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
