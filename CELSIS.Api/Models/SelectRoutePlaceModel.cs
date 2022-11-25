@@ -6,6 +6,6 @@
 
         public float GoogleRating { get; set; }
 
-        public float OverallRating { get; set; }
+        public float? OverallRating { get; set; }
     }
 }

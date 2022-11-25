@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="MS_Azure" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="MS_Azure">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/../../../../../Program Files/dotnet/sdk/6.0.400/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/../../../../../Program Files/dotnet/sdk/6.0.400/Sdks/Microsoft.NET.Sdk/analyzers/build/config/analysislevel_6_default.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/.dockerignore" web="/" />
+            <mapping deploy="" local="$PROJECT_DIR$/CELSIS.Api/CELSIS.Api.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Controllers/RatingController.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/CelsisDbContext.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/Entities/PlaceRating.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/Entities/RouteRating.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/Migrations/20221110124830_InitialMigration.Designer.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/Migrations/20221110124830_InitialMigration.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/Migrations/CelsisDbContextModelSnapshot.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/SQLScripts/InitialMigration.sql" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Data/readme.md" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Dockerfile" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/BuildRouteModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/RatePlaceModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/RateRouteModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/ResultRouteModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/SelectRouteModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Models/SelectRoutePlaceModel.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/obj/Debug/net6.0/CELSIS.Api.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/obj/Debug/net6.0/CELSIS.Api.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Api/obj/Debug/net6.0/CELSIS.Api.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/.gitignore" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/CELSIS.Web.csproj" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/.gitignore" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/package-lock.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/package.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/favicon.ico" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/index.html" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/logo192.png" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/logo512.png" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/manifest.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/public/robots.txt" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/README.md" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/App.css" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/App.test.tsx" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/App.tsx" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/index.css" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/index.tsx" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/logo.svg" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/react-app-env.d.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/reportWebVitals.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/ClientApp/src/setupTests.ts" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Pages/Error.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Pages/Error.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Pages/Error.cshtml.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Pages/_ViewImports.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Pages/_ViewImports.cshtml" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Program.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/Properties/launchSettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/appsettings.Development.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/appsettings.json" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/obj/Debug/net6.0/CELSIS.Web.AssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/obj/Debug/net6.0/CELSIS.Web.GeneratedMSBuildEditorConfig.editorconfig" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/obj/Debug/net6.0/CELSIS.Web.GlobalUsings.g.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.Web/obj/Debug/net6.0/CELSIS.Web.RazorAssemblyInfo.cs" web="/" />
+            <mapping local="$PROJECT_DIR$/CELSIS.sln" web="/" />
+            <mapping deploy="/home/kirill_201rdb177/CELSIS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
