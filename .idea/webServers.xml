@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="654a88a7-5001-4860-95ea-8b59f3c03fc7" name="MSAzureUbuntu" url="">
+        <fileTransfer accessType="SFTP" host="20.160.227.44" port="22" sshConfigId="e06772f7-3ca1-4f44-8796-2f2be5e4d9a9" sshConfig="kirill_201rdb177@20.160.227.44:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

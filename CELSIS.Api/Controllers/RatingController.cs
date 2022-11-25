@@ -27,7 +27,7 @@ namespace CELSIS.Api.Controllers
         public async Task<ActionResult> RatePlaceAsync(RatePlaceModel rateModel)
         {
             if (rateModel == null)
-                throw new ArgumentNullException(nameof(rateModel));
+                return BadRequest("Request body is empty");
 
             var rating = await _dbContext.PlaceRatings.FindAsync(rateModel.GooglePlaceId);
 
@@ -58,7 +58,7 @@ namespace CELSIS.Api.Controllers
         public async Task<ActionResult> RateRouteAsync(RateRouteModel rateModel)
         {
             if (rateModel == null)
-                throw new ArgumentNullException(nameof(rateModel));
+                return BadRequest("Request body is empty");
 
             var rating = await _dbContext.RouteRatings.FindAsync(rateModel.GoogleRouteHash);
 
@@ -89,12 +89,12 @@ namespace CELSIS.Api.Controllers
         public async Task<ActionResult<float>> GetPlaceRatingAsync(string googlePlaceId)
         {
             if (googlePlaceId == null || googlePlaceId.Length == 0)
-                throw new ArgumentNullException(nameof(googlePlaceId));
+                return BadRequest($"{nameof(googlePlaceId)} does not provided");
 
             var rating = await _dbContext.PlaceRatings.FindAsync(googlePlaceId);
 
             if (rating == null)
-                throw new KeyNotFoundException($"Place with id: {nameof(googlePlaceId)} does not exist in DB");
+                return BadRequest($"Place with id: {googlePlaceId} does not exist in DB");
 
             return Ok(rating.Rating);
         }
@@ -103,12 +103,12 @@ namespace CELSIS.Api.Controllers
         public async Task<ActionResult<float>> GetRouteRatingAsync(string googleRouteHash)
         {
             if (googleRouteHash == null || googleRouteHash.Length == 0)
-                throw new ArgumentNullException(nameof(googleRouteHash));
+                return BadRequest($"{nameof(googleRouteHash)} does not provided");
 
             var rating = await _dbContext.RouteRatings.FindAsync(googleRouteHash);
 
             if (rating == null)
-                throw new KeyNotFoundException($"Route with hash: {nameof(googleRouteHash)} does not exist in DB");
+                return BadRequest($"Route with hash: {googleRouteHash} does not exist in DB");
 
             return Ok(rating.Rating);
         }
@@ -157,7 +157,7 @@ namespace CELSIS.Api.Controllers
         public async Task<ActionResult<ResultRouteModel>> BuildRouteAsync(BuildRouteModel buildRouteModel)
         {
             if (buildRouteModel == null)
-                throw new ArgumentNullException(nameof(buildRouteModel));
+                return BadRequest($"{nameof(buildRouteModel)} does not provided");
 
             var internalRatings = new List<float?>();
 
